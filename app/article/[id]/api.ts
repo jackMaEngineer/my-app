@@ -2,14 +2,14 @@
  * @Author: 丁攀峰 allen@leanktech.com
  * @Date: 2024-01-23 23:18:55
  * @LastEditors: 丁攀峰 allen@leanktech.com
- * @LastEditTime: 2024-02-20 10:35:52
+ * @LastEditTime: 2024-02-20 10:41:57
  * @FilePath: /my-app/app/article/[id]/api.ts
  */
 
 const articles = [
     { id: '1', title: '文章1', content: '这是文章1的内容' },
     { id: '2', title: '文章2', content: '这是文章2的内容' },
-    { id: '3', title: '文章2', content: '这是文章3的内容' }
+    { id: '3', title: '文章3', content: '这是文章3的内容' }
     // 更多文章...
 ]
 

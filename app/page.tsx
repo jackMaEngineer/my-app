@@ -16,7 +16,8 @@ export default function Home() {
                     <Link href={'/article/1'}>id1</Link>
                 </li>
                 <li>
-                    <Link href={'/article/2'}>di2</Link>
+                    <Link href={'/article/2'}>id2</Link>
+                    <Link href={'/article/3'}>id3</Link>
                 </li>
             </ul>
         </main>
