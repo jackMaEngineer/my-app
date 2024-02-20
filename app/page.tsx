@@ -2,7 +2,7 @@
  * @Author: 丁攀峰 allen@leanktech.com
  * @Date: 2024-01-23 10:19:33
  * @LastEditors: 丁攀峰 allen@leanktech.com
- * @LastEditTime: 2024-01-25 16:16:18
+ * @LastEditTime: 2024-02-20 11:01:24
  * @FilePath: /my-app/app/page.tsx
  */
 import Link from 'next/link'
@@ -13,11 +13,13 @@ export default function Home() {
             <Link href={'/about'}>about</Link>
             <ul>
                 <li>
-                    <Link href={'/article/1'}>id1</Link>
+                    <Link href={'/article/1'}>文章1</Link>
                 </li>
                 <li>
-                    <Link href={'/article/2'}>id2</Link>
-                    <Link href={'/article/3'}>id3</Link>
+                    <Link href={'/article/2'}>文章2</Link>
+                </li>
+                <li>
+                    <Link href={'/article/3'}>文章3</Link>
                 </li>
             </ul>
         </main>
